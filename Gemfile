@@ -23,6 +23,8 @@ gem 'countries'
 
 # for photo
 gem 'paperclip'
+gem "cocaine", "= 0.3.2"
+
 # for telephone code
 gem 'phony'
 
