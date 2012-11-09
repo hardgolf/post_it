@@ -21,6 +21,8 @@ gem 'bootstrap-will_paginate', '0.0.6'
 # for country information
 gem 'countries'
 
+# for photo
+gem 'paperclip'
 # for telephone code
 gem 'phony'
 
