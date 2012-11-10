@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
   before_save { self.email.downcase! }
 
-  has_attached_file :photo, styles: { small: "10x10>" } 
+  has_attached_file :photo, styles: { small: "50x50" } 
 
   VALID_EMAIL_REGEX = /\A[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})\z/i
   validates :email, presence:   true, length: { maximum: 100 },

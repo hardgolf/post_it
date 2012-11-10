@@ -22,7 +22,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 gem 'countries'
 
 # for photo
-gem 'paperclip'
+gem 'paperclip', "=3.1.4"
 gem "cocaine", "= 0.3.2"
 
 # for telephone code
